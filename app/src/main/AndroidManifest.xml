@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.salonspace">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_main"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_main_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Search_Activity"></activity>
+        <activity android:name=".PopupActivitymodify" />
+        <activity
+            android:name=".PopupActivity2"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Map" />
+        <activity android:name=".FindPW" />
+        <activity android:name=".FindID" />
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".LoginActivity">
+        </activity>
+        <activity android:name=".SearchActivity" />
+        <activity android:name=".SearchResultActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".ProfilePreviewActivity" />
+        <activity android:name=".ProfileUpdateActivity" />
+        <activity android:name=".PaymentActivity" />
+        <activity android:name=".ReserveActivity" />
+        <activity android:name=".ReviewActivity" />
+        <activity android:name=".MainActivity_custom" />
+        <activity android:name=".MainActivity4Customer" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".PopupActivity"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name=".SplahActivity"
+            android:theme="@style/AppFullScreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MainActivity4Designer" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAU9k-a2XRdatM65MZ22k6fDr6MYNQ19P0" />
+    </application>
+
+</manifest>

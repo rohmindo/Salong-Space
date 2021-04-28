@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/Item1"
+        android:icon="@drawable/home2"
+        android:title="홈" />
+    <item
+        android:id="@+id/Item2"
+        android:icon="@drawable/calendar"
+        android:title="예약" />
+<!--    <item-->
+<!--        android:id="@+id/Item3"-->
+<!--        android:icon="@drawable/customer"-->
+<!--        android:title="고객" />-->
+    <item
+        android:id="@+id/Item4"
+        android:icon="@drawable/user"
+        android:title="마이" />
+</menu>
